@@ -163,10 +163,10 @@ func main() {
 	fmt.Println("hallo")
 	uriFlag := flag.String("uri", "", "Specify URI of FW-PayloadPath")
 	outFlag := flag.String("out", "", "Specify output dir")
-	keyFlag := flag.String("signKey", "", "Specify output dir")
-	seqFlag := flag.String("seq", "", "Specify output dir")
-	imageFlag := flag.String("image", "", "Specify output dir")
-	uuidFlag := flag.String("uuid", "", "Specify output dir")
+	keyFlag := flag.String("signKey", "", "Specify signature key")
+	seqFlag := flag.String("seq", "", "Specify sequence number")
+	imageFlag := flag.String("image", "", "Specify firmware image")
+	uuidFlag := flag.String("uuid", "", "Specify uuid")
 
 	flag.Parse()
 
